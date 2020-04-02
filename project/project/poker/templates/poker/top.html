@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>暇すぎてポーカーしか勝たん( ,,`･ω･´)ﾝﾝﾝ？</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="pseudo.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Pseudo</h1>
+            <p>確認</p>
+        </header>
+
+        <script src="project/poker/migrations/poker_headsup_main"></script>
+
+        <main>
+            <div class="action"> 
+                <p>player action</p>
+                <form action="/result" method="POST">
+                    <input type="text" name="action_name" />
+                    <button name="test2" value="お金">決定</button>
+                </form>
+                
+            </div>
+
+            <form action="" method="POST" name="">
+                <select name="act">
+                    <option value="action_0">call</option>
+                    <option value="action_1">check</option>
+                    <option value="action_2">raise</option>
+                    <option value="action_3">fold</option>
+                </select>
+
+                <input type="range" min="200" max="3000">
+            </form>
+        </main>
+
+        <footer></footer>
+
+    </body>
+</html>
+
