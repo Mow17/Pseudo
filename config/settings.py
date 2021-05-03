@@ -185,7 +185,7 @@ LOGGING = {
     }
 }
 
-# install djangoa
+# install django
 import django_heroku
 
 if 'DYNO' in os.environ:
